@@ -19,6 +19,7 @@ body {
     gap: 1rem;
     background-color: #231e24;
     padding: 1rem;
+    perspective: 700px;
 }
 
 .card {
@@ -29,6 +30,8 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    transform-style: preserve-3d;
+    transition: 0.3s ease;
 }
 
 img {
@@ -47,5 +50,12 @@ img {
     width: 100%;
     position: absolute;
     top: 0;
+    backface-visibility: hidden;
+    cursor: pointer;
 
 }
+/*
+.card:hover {
+    transform: rotateY(180deg);
+}
+*/

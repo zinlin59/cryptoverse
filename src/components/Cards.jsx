@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Cards = ({ card }) => {
-    console.log(card);
+const Cards = ({ card,setSelectedCards, selectedCards }) => {
+    const handleClick=(()=> {
+        console.log("clicked me")
+        setSelectedCards ([...selectedCards, card])
+    })
     return (
         <div>
-            <div className='card'>
+            <div className='card' onClick={handleClick} >
                 <div className='front'>
                     <img src={card.img} alt="" />
                 </div>
