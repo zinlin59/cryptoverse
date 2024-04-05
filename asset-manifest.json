@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cryptoverse/static/css/main.ceedc925.css",
+    "main.js": "/cryptoverse/static/js/main.f15ff759.js",
+    "static/media/cryptocurrency.png": "/cryptoverse/static/media/cryptocurrency.1548aced3f0605895bac.png",
+    "index.html": "/cryptoverse/index.html",
+    "main.ceedc925.css.map": "/cryptoverse/static/css/main.ceedc925.css.map",
+    "main.f15ff759.js.map": "/cryptoverse/static/js/main.f15ff759.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceedc925.css",
+    "static/js/main.f15ff759.js"
+  ]
+}
